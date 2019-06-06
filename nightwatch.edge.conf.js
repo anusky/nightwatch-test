@@ -4,6 +4,7 @@ const geckodriver = require("geckodriver");
 module.exports =
   {
     "src_folders": ["./tests"],
+    "output_folder": "./reports",
     "webdriver": {
       "start_process": true
     },
